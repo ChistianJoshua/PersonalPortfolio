@@ -1,68 +1,60 @@
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #title {
+    background-image: url("https://imageio.forbes.com/specials-images/imageserve/6185366bb3bf9a4e6be0e269/Earbuds-with-notebook-and-coffee-near-laptop/960x0.jpg?format=jpg&width=1440");
+    background-size: cover;
+}
+#header-img {
+    max-width: 50px;
+    height: auto
+}
+p {
+    font-size: 20px;
+    font-family: 'Times New Romans';
+    font-style: italic;
+}
+#nav-bar {
+    display: flex;
+}
+
+.nav-link {
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+}
+
+#video {
+    display: block;
+    margin: 0 auto;
+}
+
+#form {
     text-align: center;
     margin-top: 50px;
-  }
-  
-  #description {
-    text-align: center;
-  }
-  
-  #survey-form {
-    width: 50%;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  input[type="number"],
-  select,
-  textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  input[type="radio"],
-  input[type="checkbox"] {
-    margin-right: 5px;
-  }
-  
-  button[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
+}
+
+#email {
+    padding: 10px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+#submit {
     padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
-    float: right;
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #45a049;
-  }
-  
-  @media (max-width: 600px) {
-    #survey-form {
-      width: 80%;
-    }
-  }
-  
+}
